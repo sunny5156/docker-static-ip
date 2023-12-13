@@ -49,7 +49,7 @@ if syspid == 0:
                 cfg = i.split(',') 
                 Duration(*cfg)
         file.close()
-        time.sleep(10)
+        time.sleep(5)
 else:
     exit()
 
